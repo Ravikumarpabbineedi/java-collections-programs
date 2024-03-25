@@ -1,0 +1,16 @@
+package java8features;
+
+import java.util.*;
+
+class Persons{
+	private String name;
+	private List<String> hobbies;
+}
+public class Java8Ch9 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

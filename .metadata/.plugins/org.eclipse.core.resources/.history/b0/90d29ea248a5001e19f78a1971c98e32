@@ -1,0 +1,16 @@
+package collectionsprograms;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class Generics2 {
+
+	public static void main(String[] args) {
+		Collection c=new ArrayList();
+		
+		for(Object x:c)
+			System.out.println(x);
+
+	}
+
+}

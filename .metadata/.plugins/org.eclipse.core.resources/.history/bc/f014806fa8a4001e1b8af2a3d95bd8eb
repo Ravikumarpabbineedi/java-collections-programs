@@ -1,0 +1,10 @@
+package classprograms;
+
+public class Outer4 {
+	
+
+	public static void main(String[] args) {
+		
+	}
+
+}

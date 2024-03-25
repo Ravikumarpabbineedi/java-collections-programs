@@ -1,0 +1,12 @@
+package classprograms;
+import java.io.*;
+import java.util.*;
+	public class Counter {
+		
+		int count;
+		public synchronized void increment()
+		{
+			count=count+1;
+		}
+	}
+	

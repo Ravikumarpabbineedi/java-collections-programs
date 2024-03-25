@@ -1,0 +1,16 @@
+package classprograms;
+
+public class PractiseException {
+
+	public static void main(String[] args){
+		try
+		{
+		int a=1/0;
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+	}
+
+}

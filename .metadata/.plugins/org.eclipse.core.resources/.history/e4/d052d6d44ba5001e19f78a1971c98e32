@@ -1,0 +1,14 @@
+package collectionsprograms;
+
+import java.io.*;
+import java.util.*;
+import java.lang.*;
+public class Annotationsdemo {
+
+	public static void main(String[] args) {
+		
+		B b=new B();
+		b.displayclassData();
+	}
+
+}

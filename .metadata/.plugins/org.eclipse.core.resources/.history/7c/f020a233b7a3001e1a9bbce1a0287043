@@ -1,0 +1,13 @@
+package classprograms;
+
+public class Counter {
+
+	public class Counter {
+		
+		int count;
+		public synchronized void increment()
+		{
+			count=count+1;
+		}
+	}
+}	

@@ -1,0 +1,39 @@
+package collectionsprograms;
+
+import java.io.*;
+import java.util.*;
+@FunctionalInterface
+interface ABC
+{
+	public void s2();
+}
+class A {
+	public void displaymyclassdata()
+	{
+		System.out.println("welcome to java");
+	}
+}
+class B extends A
+{
+	@Deprecated
+	public void show()
+	{
+		
+	}
+	@Override
+	@SuppressWarnings("unchecked")
+	public void displaymyclassdata()
+	{
+		System.out.println("welcome to core java");
+	}
+}
+class Annotation
+{
+	public static void main(String args[])
+	{
+		B b=new B();
+		b.show();
+		b.displaymyclassdata();
+	}
+}
+

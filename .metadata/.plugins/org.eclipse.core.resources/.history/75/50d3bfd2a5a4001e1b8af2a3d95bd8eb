@@ -1,0 +1,22 @@
+package classprograms;
+
+public class Outer2 {
+
+	static void f1()
+	{
+		System.out.println("welcome to sathya");
+	}
+	 class Inner
+	{
+		static void f2()
+		{
+			System.out.println("welcome to java");
+		}
+	}
+
+	public static void main(String[] args) {
+		Outer.f1();
+		Outer.Inner.f2();
+	}
+
+}

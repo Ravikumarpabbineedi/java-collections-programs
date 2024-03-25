@@ -1,0 +1,23 @@
+package classprograms;
+
+public class Outer2 {
+
+	/*static void f1()
+	{
+		System.out.println("welcome to sathyatechnologies");
+	}*/
+	class Inner
+	{
+		static void f2()
+		{
+			System.out.println("welcome to core java");
+		}
+	}
+
+	public static void main(String[] args) {
+		//Outer.f1();
+		Outer2.Inner i=new Outer2.Inner();
+		i.f2();
+	}
+
+}

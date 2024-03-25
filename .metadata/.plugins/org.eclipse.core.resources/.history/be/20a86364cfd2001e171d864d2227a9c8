@@ -1,0 +1,22 @@
+package java8features;
+
+import java.util.*;
+
+class Persons{
+	private String name;
+	private List<String> hobbies;
+	public Persons(String name, List<String> hobbies) {
+		super();
+		this.name = name;
+		this.hobbies = hobbies;
+	}
+	
+}
+public class Java8Ch9 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

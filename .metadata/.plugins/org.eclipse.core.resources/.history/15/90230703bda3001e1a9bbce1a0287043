@@ -1,0 +1,14 @@
+package classprograms;
+
+public class ThreadIdentity2 {
+	static Thread t;
+	public ThreadIdentity2(String name) {
+		ThreadIdentity2.t=new ThreadIdentity(this,name);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

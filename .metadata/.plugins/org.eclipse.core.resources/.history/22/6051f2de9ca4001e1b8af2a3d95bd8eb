@@ -1,0 +1,20 @@
+package classprograms;
+import java.util.*;
+import java.lang.*;
+public class Demo {
+	public void sample()
+	{
+	try
+	{
+		System.out.println("welcome java full stack");
+	}
+	catch(Throwable e)
+	{
+		throw t;
+	}
+	finally
+	{
+		super.finalize();
+	}
+	}
+}

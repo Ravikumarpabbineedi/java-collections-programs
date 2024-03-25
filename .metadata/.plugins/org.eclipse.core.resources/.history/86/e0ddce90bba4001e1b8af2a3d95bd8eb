@@ -1,0 +1,20 @@
+package classprograms;
+
+public class PractiseException {
+
+	public static void main(String[] args){
+		
+		try
+		{
+		int a=1/0;
+		}
+		catch(Exception e)
+		{
+			System.out.println(e.getMessage());
+		}
+		/*int b=5*20;
+		System.out.println(b);*/
+		
+	}
+
+}
